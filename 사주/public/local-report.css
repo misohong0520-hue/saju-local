@@ -1,0 +1,21 @@
+#local-report-entry {
+  position: fixed; z-index: 60; top: 52px; right: max(12px, calc((100vw - 450px) / 2 + 12px));
+  border: 1px solid #8a6558; border-radius: 10px; padding: 9px 12px;
+  color: #fff; background: #372823; font-size: 13px; text-decoration: none;
+}
+.local-report-body { margin: 0; background: #171515; color: #faf6f2; font: 16px/1.6 system-ui, sans-serif; }
+.local-report-body main { max-width: 560px; padding: 24px 18px 64px; margin: 0 auto; }
+.local-report-body nav { display: flex; flex-wrap: wrap; gap: 8px 16px; font-size: 14px; margin-bottom: 20px; }
+.local-report-body a { color: #ffc4a9; }
+.local-report-body h1 { font-size: 29px; line-height: 1.24; }
+.local-report-body h2 { font-size: 19px; margin-top: 0; }
+.local-report-body form, .local-report-body section { background: #272223; border: 1px solid #544343; border-radius: 14px; padding: 18px; margin-top: 14px; }
+.local-report-body label { display: block; margin-bottom: 14px; }
+.local-report-body input, .local-report-body select, .local-report-body textarea {
+  display: block; width: 100%; box-sizing: border-box; margin-top: 5px; padding: 9px;
+  border: 1px solid #806867; border-radius: 8px; font: inherit; background: #211b1c; color: #fff;
+  color-scheme: dark;
+}
+.local-report-body button { border: 0; border-radius: 8px; background: #ffbfa0; color: #26140c; padding: 11px 16px; font: inherit; font-weight: 700; cursor: pointer; }
+.local-report-body button:disabled { opacity: .6; cursor: wait; }
+.local-report-body section p { margin-bottom: 0; }

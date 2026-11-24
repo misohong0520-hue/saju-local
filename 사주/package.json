@@ -1,0 +1,14 @@
+{
+  "name": "yongyong-local",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node mirror-server.mjs",
+    "capture": "node capture-mirror.mjs",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "manseryeok": "2.0.0"
+  }
+}
